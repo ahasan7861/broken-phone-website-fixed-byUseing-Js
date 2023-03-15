@@ -116,8 +116,8 @@ const displayPhoneDetails = phone =>{
         <p>Storage: ${phone.mainFeatures.storage? phone.mainFeatures.storage : 'No Storage Information'}</p>
         <p>Others: ${phone.others ? phone.others.Bluetooth : 'No Bluetooth Information'}</p>
         <p>Sensor: ${phone.mainFeatures.sensors ? phone.mainFeatures.sensors[0] : 'no sensor'}</p>
-        `
-    modalTitle.appendChild(phoneDetails);
+        `;
+    
 }
 
 loadPhones();
